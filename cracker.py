@@ -10,7 +10,7 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(options=options)
 
-url = "https://www.mitec-hack.org/hackerportal"
+url = ""
 driver.get(url)
 
 characters = ["hack", "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
